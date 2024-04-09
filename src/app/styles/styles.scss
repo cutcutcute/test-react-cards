@@ -1,0 +1,77 @@
+
+%pointer{
+    cursor: pointer;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(207, 207, 207);
+}
+
+.card-area{
+    position: relative;
+    padding: 15px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    flex-wrap: wrap;
+
+    
+    &__element{
+        position: relative;
+        width: 250px;
+        padding: 10px;
+        box-shadow: 0 0 5px #000;
+        border-radius: 15px;
+        transition: all .3s ease-out;
+        @extend %pointer;
+
+        &:hover{
+            background-color: #fff;
+        }
+
+        &:active{
+            box-shadow: 0 0 20px red;
+            scale: .95;
+        }
+
+
+        &-title{
+            font-size: 1.3rem;
+            text-align: center;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            margin-bottom: 5px;
+            @extend %pointer;
+        }
+
+        &-content{
+            position: relative;
+            font-size: .9rem;
+            width: 100%;
+            padding: 3px;
+            @extend %pointer;
+
+        }
+
+    }
+}
+
+
+@media (max-width: 600px){
+
+    .card-area{
+        padding: 0;
+        &__element{
+            width: 100%;
+        }
+    }
+
+}
