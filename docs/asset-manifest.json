@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/test-react-cards/static/css/main.f01ee709.css",
-    "main.js": "/test-react-cards/static/js/main.b3b505b5.js",
+    "main.css": "/test-react-cards/static/css/main.56af0c5a.css",
+    "main.js": "/test-react-cards/static/js/main.4fb0cd0b.js",
     "static/js/453.b9b4a01c.chunk.js": "/test-react-cards/static/js/453.b9b4a01c.chunk.js",
     "index.html": "/test-react-cards/index.html",
-    "main.f01ee709.css.map": "/test-react-cards/static/css/main.f01ee709.css.map",
-    "main.b3b505b5.js.map": "/test-react-cards/static/js/main.b3b505b5.js.map",
+    "main.56af0c5a.css.map": "/test-react-cards/static/css/main.56af0c5a.css.map",
+    "main.4fb0cd0b.js.map": "/test-react-cards/static/js/main.4fb0cd0b.js.map",
     "453.b9b4a01c.chunk.js.map": "/test-react-cards/static/js/453.b9b4a01c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f01ee709.css",
-    "static/js/main.b3b505b5.js"
+    "static/css/main.56af0c5a.css",
+    "static/js/main.4fb0cd0b.js"
   ]
 }

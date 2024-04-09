@@ -13,6 +13,11 @@ body{
     background-color: rgb(207, 207, 207);
 }
 
+
+.red-shadow{
+    box-shadow: 0 0 20px red !important;
+}
+
 .card-area{
     position: relative;
     padding: 15px;
@@ -37,7 +42,6 @@ body{
         }
 
         &:active{
-            box-shadow: 0 0 20px red;
             scale: .95;
         }
 

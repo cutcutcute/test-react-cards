@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 
 
 export const Card = (): React.JSX.Element => {
-    return <div className="card-area__element">
+
+    const [dropShadow, setDeropShadow] = useState<boolean>(false)
+
+    const handleClick = () => {
+        setDeropShadow(dropShadow => !dropShadow)
+    }
+
+    return <div onClick={handleClick} className={`card-area__element ${dropShadow?"red-shadow":""}`}>
         <header className="card-area__element-title">
             Lorem Ipsum is simply dummy text
         </header>
